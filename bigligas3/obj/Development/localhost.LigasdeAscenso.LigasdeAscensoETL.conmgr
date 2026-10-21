@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.LigasdeAscenso.LigasdeAscensoETL"
+  DTS:DTSID="{E7D53146-AED8-4B4E-A3D6-E19E3C88FE68}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost;User ID=LigasdeAscensoETL;Initial Catalog=LigasdeAscenso;Provider=MSOLEDBSQL.1;Persist Security Info=True;Application Name=SSIS-bigligas3-{E7D53146-AED8-4B4E-A3D6-E19E3C88FE68}localhost.LigasdeAscenso.LigasdeAscensoETL;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApgXQAzzMAUi649zkhk1D2wAAAAACAAAAAAAQZgAAAAEAACAAAADLCHjQSh6s1wocCrj1SvWVljPnEjvzgOjz7KfDvjk0sQAAAAAOgAAAAAIAACAAAAC4JGsXRj1gLfDhvFA5zEjR6PjE6EtrccwhImwgnnjjtIAAAADUQ4sBXQo1q+Jue5Ees3pBaxLw61FD70ZBqxOtRkSj7aBeKvUNrOzTq82ldnD/qBkMuPQwTM4ceJ4He+J3ETxybs/2BqNMNukCwbhCtMQbs9dvtwtbY0bAXocONtaDBlRSZ2fHs3T5LQ7wrzdSd9uJjm0tjH9ZmSKLgq0OtiGOv0AAAABevjfgipUfcuC/PUe+BaTd/gBQ4chWyaapzOIIRArioR2CHQr94lYDlnbdlGjLjOuro4CjO3NhUKeHH3jU8/1M</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
